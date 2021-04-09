@@ -1,0 +1,39 @@
+.job-details-footer {
+  width: 100%;
+  background: #ffffff;
+}
+
+.job-details-footer.dark {
+  background-color: #19212d;
+}
+
+.job-details-footer .job-details-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.job-details-footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.job-details-footer__info__title {
+  font-size: 19px;
+  color: black;
+  font-weight: 700;
+  text-align: left;
+}
+
+.job-details-footer__info__title.dark {
+  color: #ffffff;
+}
+
+.job-details-footer__info__company {
+  font-size: 14px;
+  color: darkgrey;
+  text-align: left;
+}
+
+section.job-details-apply > article > p > a {
+  color: white;
+}

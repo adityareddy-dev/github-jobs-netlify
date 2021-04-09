@@ -1,0 +1,27 @@
+.job-list-panel-container {
+  max-width: 1110px;
+  margin: 0px auto 56px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding: 0 40px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .job-list-panel-container {
+    margin: 0px auto 56px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .job-list-panel-container {
+    margin: 0px auto 56px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+}

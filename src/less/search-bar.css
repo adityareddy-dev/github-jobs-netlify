@@ -1,0 +1,119 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 60px;
+  background-color: #ffffff;
+  position: relative;
+  top: -40px;
+  border-radius: 6px;
+  padding: 40px;
+}
+
+.search-form.dark {
+  background-color: #19212d;
+}
+
+.search-form__input-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-form__input-container > i {
+  color: #5865e0;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.search-form__input-container:not(:nth-of-type(1)) {
+  padding-left: 32px;
+}
+.search-form__input-container:not(:last-of-type) {
+  border-right: 1px solid lightgrey;
+}
+
+.search-form__input {
+  height: 60px;
+  position: relative;
+  width: 100%;
+  padding: 0 8px;
+  text-overflow: ellipsis;
+  border: none;
+}
+
+.search-form__input:focus {
+  border: none;
+}
+
+.search-form__input.dark {
+  background-color: #19212d;
+  color: #ffffff;
+}
+
+.search-form__input__icon {
+  margin-right: 8px;
+}
+.search-form__input::placeholder {
+  color: grey;
+}
+.search-form__main-filter {
+  width: 100%;
+  max-width: 463px;
+}
+@media (max-width: 600px) {
+  .search-form__main-filter {
+    max-width: none;
+  }
+}
+.search-form__main-filter__icon {
+  margin-right: 24px;
+  display: none;
+}
+@media (max-width: 600px) {
+  .search-form__main-filter__icon {
+    display: block;
+  }
+}
+.search-form__main-filter__btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: #f5f6f8;
+  padding: 14px;
+}
+@media (max-width: 600px) {
+  .search-form__main-filter__btn {
+    display: flex;
+  }
+}
+.search-form__location-filter {
+  width: 100%;
+  max-width: 300px;
+}
+@media (max-width: 600px) {
+  .search-form__location-filter {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .search-form__checkbox-container {
+    display: none;
+  }
+}
+.search-form__checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.search-form__checkbox__label {
+  margin-right: 10px;
+  width: 125px;
+}
+
+.search-form__checkbox__label.dark {
+  color: #ffffff;
+}

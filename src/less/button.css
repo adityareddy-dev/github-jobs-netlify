@@ -1,0 +1,43 @@
+.btnDefault {
+  background-color: #5865e0;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btnInverse {
+  color: #5865e0;
+  background-color: #f5f6f8;
+  padding: 16px 32px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btnInverse.dark {
+  background-color: #5865e0;
+  color: white;
+}
+
+.btnInverse:hover {
+  background-color: #999999;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btnDefault:hover {
+  background-color: #a9b2ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btnDefault.dark {
+  background-color: #2f3641;
+  color: white;
+}
+
+.btnDefault.dark:hover {
+  background-color: #696e76;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.main-container {
+  background-color: #f5f6f8;
+  min-height: 100vh;
+}
+
+.main-container.dark {
+  background-color: #131822;
+}
+
+.main-container-search-container {
+  position: relative;
+  transform: translateY(-60%);
+}
+
+.main-container-button-spinner {
+  padding-bottom: 75px;
+}

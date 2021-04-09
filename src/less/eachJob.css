@@ -1,0 +1,70 @@
+.each-job-container {
+  background-color: #ffffff;
+  position: relative;
+  margin-bottom: 65px;
+  padding: 50px 30px 30px 30px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.each-job-container.dark {
+  background-color: #19212d;
+}
+
+.each-job-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -30px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 1px 2px 13px -8px #000000;
+}
+
+.each-job-logo {
+  border-radius: 15px;
+  width: 50px;
+  height: auto;
+}
+
+.each-job-logo-null {
+  background-color: #faaaaa;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.each-job-title {
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: left;
+}
+
+.each-job-title.dark {
+  color: #ffffff;
+}
+
+.each-job-info {
+  color: darkgrey;
+  text-align: left;
+}
+
+.each-job-dot {
+  margin: 0 5px;
+  text-align: left;
+}
+
+.each-job-location {
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+  color: #5865e0;
+  margin-top: 20px;
+  text-align: left;
+}
